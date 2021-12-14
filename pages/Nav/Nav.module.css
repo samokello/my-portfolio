@@ -1,0 +1,42 @@
+.nav {
+  background-color: royalblue;
+  position: absolute;
+  right: -50px;
+  border-radius: 50%;
+padding:10%;
+  line-height: 2em;
+
+
+ }
+
+.icons {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;  
+
+}
+
+.logodisplay{
+  display: flex;
+  gap: 1em;
+}
+
+
+
+.content {
+  display: flex;
+  align-items: center;
+  background-color: royalblue;
+}
+
+.logo {
+  color:purple;
+}
+.nav ul li {
+  list-style-type: none;
+}
+
+.nav ul {
+  justify-content: space-between;
+}

@@ -1,0 +1,34 @@
+.introduction {
+  display: flex;
+}
+
+.mainpage {
+   width: 100%;
+}
+.page {
+  width: 50%;
+  background-image: url("../../public/Images/drawing-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+
+}
+
+.intro{
+  margin-bottom: 2em;
+}
+
+.btn{
+  padding: 2em;
+  width: 20%;
+  cursor: pointer;
+}
+
+.pagecontent {
+  background-color: rgb(245, 237, 237);
+  width: 50%;
+  padding: 10%;
+  color:lightskyblue;
+  line-height: 4em;
+}
