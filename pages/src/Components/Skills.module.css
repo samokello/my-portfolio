@@ -1,0 +1,22 @@
+.skillscontainer{
+    background-color: rgb(0, 102, 255);
+}
+
+
+.animations{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+/* Tag Cloud */
+
+.tagcloud {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    font-weight: 650;
+    margin-left: 30%;
+  }
+  .tagcloud--item:hover {
+    color: #36454F;
+  }

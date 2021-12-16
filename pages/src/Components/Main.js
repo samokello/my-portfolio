@@ -1,17 +1,17 @@
 import styles  from "./Main.module.css";
 import Image from "next/image";
-import sam10 from "../../public/Images/sam10.png"
+import sam10 from "../../../public/Images/sam10.png"
 
 const Main = () => {
     return ( 
 
 
         <div className={styles.mainpage}>
-<div className={styles.intro}>
+{/* <div className={styles.intro}>
     <h1>WELCOME TO MY PORTFOLIO</h1>
 <p>The purpose of javaScript Mastery is to aspiring and established developers to take theire development skills to the next level and build awesome websites </p>
 <button className={styles.btn}>Learn More</button>
-</div>
+</div> */}
 
 
 <div className={styles.introduction}>
@@ -32,4 +32,4 @@ const Main = () => {
     );
 }
  
-export default Main;
+export default Main

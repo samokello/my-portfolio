@@ -1,0 +1,54 @@
+.inputdisplay {
+  display: flex;
+  gap: 2em;
+}
+.container {
+  width: 100%;
+gap: 2em;
+  display: flex;
+   align-items: center;
+
+}
+.formcontainer {
+  width: 50%;
+  background-color: red;
+  padding: 2em;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  
+}
+.formcontent {
+  width: 50%;
+  background-color: purple;
+  height: 100vh;
+  padding: 10%;
+
+  
+}
+
+.inputcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  padding: 0.5em;
+  margin-top: 2em;
+}
+
+.subject {
+  padding: 1.5em;
+  margin-top: 2em;
+}
+
+.message {
+  padding: 4em;
+  margin-top: 2em;
+}
+
+.sendbtn {
+  padding: 1.5em;
+  width: 30%;
+  margin: 2em 0em;
+}

@@ -55,4 +55,4 @@ const renderMenu=()=>{
      );
 }
  
-export default Nav;
+export default Nav
